@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        *{height: : 70%;}
+        body {
+            background-color: rgb(242, 247, 245);
+        }
+
+        header {
+            font-size: xx-large;
+            background-color: rgb(10, 10, 10);
+            color: antiquewhite;
+            font-style: oblique;
+            display: flex;
+            padding: 10%;
+            text-align: center; margin: 10px;
+        }
+
+        aside {
+            background-color: rgb(187, 144, 144);
+            width: 100%;
+            font-size: medium;
+            display: flex;
+            flex: 3;
+        }
+        section {
+            background-color: rgb(12, 12, 12);
+            color: rgb(240, 245, 250);
+            padding: 10px;
+            display: flex;
+            flex: 2;
+            width: 100px;
+        }
+        main{
+            background-color:black;
+            font-size: xx-large;
+            padding: 1%;
+            color: red;
+            display: flex;
+            flex: 2;
+            height: 150px;
+        }
+        footer{
+            background-color: black;
+            color: antiquewhite;
+            display: flex;
+        }
+        article{
+            width: 150px;
+            display: flex;
+            flex: 2;
+            height: 150px;
+        }
+    </style>
+
+
+    <header>Blak Ping</header>
+    <aside>blak ping in yor area
+        <section>
+            <article>
+                Boran deushi muneojeosseo
+                Badageul ttulko jeo jihalkkaji
+                Ot kkeutjarak japgettago
+                Jeo nopi du soneul ppeodeobwado
+            </article>
+            <article> kamu adalah bukti
+            </article>
+        </section>
+        <main>Aku suka kamu di tolak yo ndak mau</main>
+    </aside>
+
+    <br>
+    <br>
+    <footer>hehe</footer>
+
+</body>
+
+</html>
