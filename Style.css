@@ -1,0 +1,189 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0p;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: #5E0A0A;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+    border-bottom: 2px solid #5E0A0A;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+ 
+img {
+    width: 750px;
+    height: 550px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #5E0A0A;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font: 45px;
+    margin-bottom: 20px;
+    color: #5E0A0A;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #5C969E;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+} 
+
+a.tbl-biru:hover {
+    background: #FFA5A5;
+    text-decoration: none; 
+}
+
+a.tbl-pink {
+    background: #FFA5A5;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #5C969E;
+    text-decoration:none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 80%;
+    height: auto;
+    border-radius: 10%;
+}
+
+.kartu-tutor p {
+    font-family: 'comic sans ms';
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #364f6b;
+}
+
+.materi-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-materi {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-materi img {
+    width: 80%;
+    height: auto;
+    border-radius: 10%;
+}
+
+.kartu-materi p {
+    font-family: 'comic sans ms';
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #364f6b;
+}
